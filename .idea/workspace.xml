@@ -48,7 +48,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "settings.editor.selected.configurable": "File.Encoding"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -66,7 +66,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.eclient">
+  <component name="RunManager" selected="Application.api-gateway">
+    <configuration name="api-gateway" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.bob.apigateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="eclient" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -86,6 +95,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.api-gateway" />
       <item itemvalue="Application.eserver" />
       <item itemvalue="Application.eclient" />
     </list>
@@ -99,6 +109,14 @@
       <option name="presentableId" value="Default" />
       <updated>1652428249516</updated>
     </task>
+    <task id="LOCAL-00001" summary="добавлен eclient">
+      <created>1652436402098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652436402099</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавлен eclient" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен eclient" />
   </component>
 </project>
