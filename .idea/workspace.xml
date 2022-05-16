@@ -58,6 +58,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.bob.eclient2.controler" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -66,7 +71,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.api-gateway">
+  <component name="RunManager" selected="Application.eclient2">
     <configuration name="api-gateway" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -85,6 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="eclient2" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.bob.eclient2.Eclient2Application" />
+      <module name="eclient2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="eserver" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -95,6 +109,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.eclient2" />
       <item itemvalue="Application.api-gateway" />
       <item itemvalue="Application.eserver" />
       <item itemvalue="Application.eclient" />
@@ -116,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652436402099</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавлен api-gateway">
+      <created>1652439181725</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652439181725</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавлен eclient" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен eclient" />
+    <MESSAGE value="добавлен api-gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен api-gateway" />
   </component>
 </project>
